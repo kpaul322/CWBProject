@@ -23,7 +23,40 @@
 	</ul>
 </nav>
 <main>
-	<h2>Under Construction</h2>
+	<div class="dragon">
+		<h2>Contact Us</h2>
+	</div>
+	<div class="contact">
+  <form action="mailto:kgraham62@student.cccs.edu"
+   method="POST"
+   encytpe="multipart/form-data"
+   name="ContactForm">
+
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your first name..">
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+    <label for="email">Email</label>
+    <input type="text" id="email" name="email" placeholder="Your email..">
+
+    <label for="country">Country</label>
+    <select id="country" name="country">
+      <option value="usa">USA</option>
+      <option value="canada">Canada</option>
+      <option value="mexico">Mexico</option>
+	<option value="china">China</option>
+	<option value="india">India</option>
+    </select>
+
+    <label for="subject">Subject</label>
+    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+    <input type="submit" value="Submit">
+
+  </form>
+</div>
 </main>
 <footer>
 	<small><i>Copyright &copy; 2022 Kevin Graham</i></small>
