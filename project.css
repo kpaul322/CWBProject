@@ -63,3 +63,7 @@ div.contact	input[type=text], select, textarea	{
 			 margin-top: 5px;
 			 margin-bottom:: 10px;
 			}
+a:link		{ text-decoration: none;
+			}
+a:hover		{ color: red;
+			}
