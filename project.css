@@ -54,6 +54,13 @@ div.dragon		{ background-image: url("dragon.jpg");
 			  background-size: cover;
 			  font-size: 30px;
 			}
+div.dwarf		{ background-image: url("dwarf.jpeg");
+			  background-repeat: no-repeat;
+			  height: 200px;
+			  background-position: center;
+			  background-size: cover;
+			  font-size: 30px;
+			}
 div.contact	input[type=text], select, textarea	{
 			 width: 100%;
 			 padding: 10px;
