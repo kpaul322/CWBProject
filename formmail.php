@@ -534,7 +534,6 @@ $SITE_DOMAIN = ""; /* your website domain name */
 
 /* Help: http://www.tectite.com/fmdoc/set_real_document_root.php */
 $SET_REAL_DOCUMENT_ROOT = ""; /* overrides the value set by SetRealDocumentRoot function */
-
 //
 // override $REAL_DOCUMENT_ROOT from the $SET_REAL_DOCUMENT_ROOT value (if any)
 // Do not alter the following code (next 3 lines)!
