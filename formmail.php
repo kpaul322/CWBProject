@@ -521,7 +521,7 @@ if (includeFileExists("formmail-preconfig.inc.php")) {
 $EMAIL_NAME = "^[-a-z0-9._]+"; /* the '^' is an important security feature! */
 
 /* Help: http://www.tectite.com/fmdoc/target_email.php */
-$TARGET_EMAIL = array($EMAIL_NAME . kg32284@outlook.com);
+$TARGET_EMAIL = array($EMAIL_NAME . "kg32284@outlook.com");
 
 /* Help: http://www.tectite.com/fmdoc/email_addrs.php */
 $EMAIL_ADDRS = array();
