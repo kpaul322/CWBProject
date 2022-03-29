@@ -44,21 +44,21 @@ div.dotmm		{ background-image: url("tiefling.gif");
 			  background-repeat: no-repeat;
 			  height: 200px;
 			  background-position: center;
-			  background-size: cover;
+			  background-size: contain;
 			  font-size: 30px;
 			}
 div.dragon		{ background-image: url("dragon.jpg");
 			  background-repeat: no-repeat;
 			  height: 200px;
 			  background-position: center;
-			  background-size: cover;
+			  background-size: 60%;
 			  font-size: 30px;
 			}
 div.dwarf		{ background-image: url("dwarf.jpeg");
 			  background-repeat: no-repeat;
 			  height: 200px;
 			  background-position: center;
-			  background-size: cover;
+			  background-size: contain;
 			  font-size: 30px;
 			}
 div.contact	input[type=text], select, textarea	{
