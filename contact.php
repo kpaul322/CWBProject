@@ -1,7 +1,9 @@
 $errors = '';
 $myemail = 'kg32284@outlook.com';
 if(empty($_POST['fname'])  || 
-   empty($_POST['email']) || 
+   empty($_POST['email']) ||
+   empty($_POST['class']) ||
+   empty($_POST['subject']) || 
    empty($_POST['lname']))
 {
     $errors .= "\n Error: all fields are required";
@@ -9,7 +11,7 @@ if(empty($_POST['fname'])  ||
 
 $name = $_POST['fname']; 
 $email_address = $_POST['email']; 
-$message = $_POST['lname']; 
+$message = $_POST['subject']; 
 
 if (!preg_match(
 "/^[_a-z0-9-]+(\.[_a-z0-9-]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,3})$/i", 
