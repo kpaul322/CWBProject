@@ -1,15 +1,15 @@
 $errors = '';
 $myemail = 'kg32284@outlook.com';
-if(empty($_POST['fname'])  || 
+if(empty($_POST['firstname'])  || 
    empty($_POST['email']) ||
    empty($_POST['class']) ||
    empty($_POST['subject']) || 
-   empty($_POST['lname']))
+   empty($_POST['lastname']))
 {
     $errors .= "\n Error: all fields are required";
 }
 
-$name = $_POST['fname']; 
+$name = $_POST['firstname']; 
 $email_address = $_POST['email']; 
 $message = $_POST['subject']; 
 
