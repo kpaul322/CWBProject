@@ -78,8 +78,8 @@ div.cotnd		{ background-image: url("cotnd.jpg");
 			  font-size: 30px;
 			}
 div.grid 	{ display: grid;
-  			  grid-template-columns: auto auto auto auto;
-			}
+  		  grid-template-columns: auto auto auto auto;
+		}
 a:link		{ text-decoration: none;
 			  color: red;
 			}
