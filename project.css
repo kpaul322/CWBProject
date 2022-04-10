@@ -77,7 +77,7 @@ div.cotnd		{ background-image: url("cotnd.jpg");
 			  background-size: contain;
 			  font-size: 30px;
 			}
-div.grid-container 	{ display: grid;
+div.grid 	{ display: grid;
   			  grid-template-columns: auto auto auto auto;
 			}
 a:link		{ text-decoration: none;
