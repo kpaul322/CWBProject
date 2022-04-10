@@ -70,6 +70,13 @@ div.contact	input[type=text], select, textarea	{
 			 margin-top: 5px;
 			 margin-bottom:: 10px;
 			}
+div.cotnd		{ background-image: url("cotnd.jpg");
+			  background-repeat: no-repeat;
+			  height: 200px;
+			  background-position: center;
+			  background-size: contain;
+			  font-size: 30px;
+			}
 a:link		{ text-decoration: none;
 			  color: red;
 			}
