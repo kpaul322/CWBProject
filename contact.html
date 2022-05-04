@@ -1,6 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+<script>
+function validateForm() {
+  let x = document.forms["contactform"]["fname"].value;
+  if (x == "") {
+    alert("First Name is Blank");
+    return false;
+  }
+}
+</script>
 <title>Project</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=.5">
@@ -28,7 +37,7 @@
 		<h2>Contact Us</h2>
 	</div>
 	<div class="contact">
-   <form action="mailto:kg32284@outlook.com" method="post" enctype="text/plain">
+   <form action="mailto:kg32284@outlook.com" method="post" enctype="text/plain" name="contactform" onsubmit="return validateForm()">
    
     <label for="fname">First Name</label>
     <input type="text" id="fname" name="firstname" placeholder="Your first name..">
@@ -64,7 +73,7 @@
 </div>
 </main>
 <footer>
-	<small><i>Copyright &copy; 2022 <a href="mailto:kg32284@outlook.com">Kevin Graham</a>&nbsp;Updated 4/10/22</i></small>
+	<small><i>Copyright &copy; 2022 <a href="mailto:kg32284@outlook.com">Kevin Graham</a>&nbsp;Updated 5/3/22</i></small>
 </footer>
 </body>
 </html>
